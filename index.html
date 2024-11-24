@@ -1,0 +1,42 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+      <div class="form-wrapper">
+        <h1>Sign In</h1>
+        <form action="#">
+          <div class="form-control">
+              <input type="text"  id="Email" placeholder="Email or Phone Number">
+              <!-- <label>Email or Phone Number</label> -->
+
+          </div>
+          <div class="form-control">
+              <input type="password"  id="password" placeholder="Password">
+              <!-- <label>Password</label> -->
+          </div>
+          <button type="submit" class="sub" onclick=" func()">Sign In</button>
+          <p>or</p>
+          <button>Use a sign-in code</button> <br> <br>
+          <a href="#" onclick="forgetpassword()">Forget Password?</a>
+          <div class="form-help">
+              <div class="remember-me"><br><br>
+                  <input type="checkbox">
+                  <label for="remember-me">Remember me</label>
+              </div>
+          </div>
+      <p class="new">New to Netflix? <a href="#">Sign up now</a></p>
+      <small class="new1">
+          <p>This page is protected by Google reCAPTCHA to ensure you're not a bot. <a href="#">Learn more.</a></p>
+      </small>
+      <br><br>
+        </form>
+    </div>
+  <script src="index.js"></script>  
+</body>
+</html>

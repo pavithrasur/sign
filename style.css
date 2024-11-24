@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+   background-image: url(background\ \(1\).jpg);
+    
+}
+.continer
+{
+    border: 2px solid black;
+    border-radius: 8px;
+    width:35%;
+    background-color:rgba(0, 0, 0, 0.637);
+    
+}
+.form-wrapper h1
+{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+}
+.form-control input
+{
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    width: 45%;
+}
+.sub
+{
+    background-color: red;
+    color: white;
+     width: 50%;
+     height: 30px;
+     border-radius: 8px;
+     margin-left: 100px;
+     margin-top: 20px;
+     padding: 10px;
+}
+.form-wrapper p
+{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+button{
+    width: 50%;
+     height: 30px;
+     border-radius: 8px;
+     margin-left: 100px;
+     margin-top: 20px;
+     color: gray;
+}
+.form-wrapper a
+{
+    margin-left: 35%;
+    color: white;
+    font-size: 12px;
+}
+.remember-me 
+{
+    margin-left: 100px;
+    font-size: 12px;
+    
+}
+.new
+{
+font-size: 12px;
+position: relative;
+right: 100px;;
+}
+.new a{
+    position: relative;
+right: 112px;
+color: blue;
+}
+
+.new1
+{
+font-size: 12px;
+position: relative;
+right: 100px;;
+}
+.new1 a{
+    position: relative;
+right: 112px;
+color: blue;
+
+}
